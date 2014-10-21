@@ -1,1 +1,75 @@
 @import "fonts/stylesheet.css";
+
+body{
+    margin:0px;
+}
+
+#cardapio{
+    width:646px;
+    background-color:rgba(255,255,255,0.2);
+    border: 1px solid #aac0ae;
+    float:right;
+    box-sizing: border-box;
+}
+
+#recipiente{
+    box-sizing: border-box;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    background: -webkit-gradient(linear, 0 100%, 0 0, from(#f6f1b2), to(#4599b2));
+    background: -webkit-linear-gradient(#f6f1b2, #4599b2);
+    background: -moz-linear-gradient(#f6f1b2, #4599b2);
+    background: -o-linear-gradient(#f6f1b2, #4599b2);
+    background: linear-gradient(#f6f1b2, #4599b2);
+    border: 1px solid #d3d3d3;
+    position:relative;
+}
+
+#rodape{
+    clear:both;
+}
+h1{
+    color:#e90c0c;
+    font-family:"Ravie";
+    font-size:36px;
+}
+
+h2{
+    font-family:"Trebuchet MS";
+    font-weight:normal;
+}
+
+h2 span{
+    color:#d027aa;
+}
+
+#lateral h2{
+    transform:rotate(270deg);
+    font-family:verdana;
+    font-size:48px;
+    font-weight:bold;
+    margin-top:240px;
+}
+
+#lateral{
+    position:absolute;
+    width:154px;
+}
+
+#peixe{
+    position:relative; left:-44px;
+}
+
+#siri{
+    position:relative; left:-10px;
+}
+
+#bolhas{
+    padding-right:20px;
+    float:right;
+}
+
+#cabecalho{
+    float:right
+}
